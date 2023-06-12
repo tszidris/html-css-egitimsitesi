@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+    
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header */
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+    
+}
+/* Section */
+
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 2rem;
+}
+#home .name{
+    text-align: center;
+
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#home img{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    margin-top: 30px;
+    /* height: auto; */
+    /* border-radius: 100%;  */
+}
+#div3{
+    border-style: solid ;
+    width: 500px;
+    background:black;
+    height: 300px;
+    background-image: url(../resimler/12a.png);
+    background-position: center;
+    background-position-y: 1.5rem ;
+    border-radius: 300px;
+
+    background-size: cover;
+    
+    
+}
+#training{
+
+    color: #fff;
+    padding: 1rem;
+
+
+}
+#training .items{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color:rgb(21, 240, 203);
+    opacity: 0.6px;
+}
+/* Courses */
+#courses{
+
+    color: #333;
+    padding: 1rem;
+
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom:0.5rem ;
+
+}
+
+.courses .course .course-image{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+    position: relative;
+    
+}
+.courses .course .course-image img{
+    border-radius: 5px;   
+}
+.courses .course .course-image span{
+    background: red;
+    pad: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    opacity: 0.6;
+    margin-bottom: 0.25rem;
+
+}
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.25rem;
+
+}
+
+/* Contact */
+
+#contact{
+    color: #fff;
+    padding: 1rem;
+
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
